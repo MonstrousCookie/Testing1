@@ -14,7 +14,7 @@ public class HeapSorterTest {
     }
 
     @Test
-    public void sortedSuccessTest() {
+    public void sortTest_success1() {
         int[] actual = new int[]{5, 4, 3, 2, 1};
 
         sorter.sort(actual);
@@ -23,7 +23,7 @@ public class HeapSorterTest {
     }
 
     @Test
-    public void sortedSuccessTest2() {
+    public void sortTest_success2() {
         int[] actual = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9};
 
         sorter.sort(actual);
@@ -33,14 +33,14 @@ public class HeapSorterTest {
 
 
     @Test
-    public void sortedTestFailure() {
+    public void sortTest_failure1() {
         int[] actual = null;
 
         Assert.assertThrows(RuntimeException.class, () -> sorter.sort(actual));
     }
 
     @Test
-    public void sortedTestFailure2() {
+    public void sortTest_failure2() {
         int[] actual = new int[]{};
 
         Assert.assertThrows(RuntimeException.class, () -> sorter.sort(actual));
