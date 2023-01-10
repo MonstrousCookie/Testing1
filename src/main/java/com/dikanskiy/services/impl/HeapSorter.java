@@ -1,6 +1,6 @@
-package services.impl;
+package com.dikanskiy.services.impl;
 
-import services.Sorter;
+import com.dikanskiy.services.Sorter;
 
 public class HeapSorter implements Sorter {
     @Override

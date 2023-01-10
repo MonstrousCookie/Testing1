@@ -1,4 +1,4 @@
-package services;
+package com.dikanskiy.services;
 
 public interface Sorter {
 
