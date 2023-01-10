@@ -1,8 +1,9 @@
+package com.dikanskiy.services;
+
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import com.dikanskiy.services.impl.HeapSorter;
-import com.dikanskiy.services.Sorter;
 
 public class HeapSorterTest {
 
